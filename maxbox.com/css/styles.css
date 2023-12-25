@@ -1,0 +1,109 @@
+/* Общие стили */
+body {
+    background-color: #d6d6d6;
+    color: #202020;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333533;
+    color: #ffd100;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.selected-a {
+    color: #202020;
+    background-color: #ffee32;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffd100;
+}
+
+.images-main {
+    width: 40%;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333533;
+    color: #ffd100;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.unique-footer {
+    background-color: #333533;
+    color: #ffd100;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для кнопок */
+.primary-btn {
+    background-color: #ffee32;
+    color: #202020;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Специфические стили для страниц */
+/* Пример стилей для страницы "Курсы" */
+.courses {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Пример стилей для страницы "Онлайн-уроки" */
+.lessons {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Пример стилей для страницы "Сообщество" */
+.community {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Пример стилей для страницы "Поддержка" */
+.support {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
